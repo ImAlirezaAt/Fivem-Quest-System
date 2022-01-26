@@ -1,0 +1,4 @@
+ALTER TABLE `users` ADD `quest` INT(5) NOT NULL DEFAULT '0';
+ALTER TABLE `users` ADD `level` INT(5) NOT NULL DEFAULT '0';
+ALTER TABLE `users` ADD `hquest` INT(5) NOT NULL DEFAULT '0';
+ALTER TABLE `users` ADD `mquest` INT(5) NOT NULL DEFAULT '0';
